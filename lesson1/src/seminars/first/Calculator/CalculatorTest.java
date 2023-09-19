@@ -78,5 +78,15 @@ public class CalculatorTest {
         // Если метод calculateDiscount получает недопустимые аргументы,
         // он должен выбрасывать исключение ArithmeticException.
         // Не забудьте написать тесты для проверки этого поведения.
+        assertThatThrownBy(() -> seminars.first.Calculator.Calculator.calculateDiscount(-3, 0.5))
+                .isInstanceOf(ArithmeticException.class);
+        assertThatThrownBy(() -> seminars.first.Calculator.Calculator.calculateDiscount(30.3, 1.1))
+                .isInstanceOf(ArithmeticException.class);
+        assertThatThrownBy(() -> seminars.first.Calculator.Calculator.calculateDiscount(30.3, -0.5))
+                .isInstanceOf(ArithmeticException.class);
+        assertThat(seminars.first.Calculator.Calculator.calculateDiscount(20, 0.1)).isEqualTo(18);
+        assertThat(seminars.first.Calculator.Calculator.calculateDiscount(20, 0)).isEqualTo(20);
+        assertThat(seminars.first.Calculator.Calculator.calculateDiscount(20, 1)).isEqualTo(0);
+
     }
 }

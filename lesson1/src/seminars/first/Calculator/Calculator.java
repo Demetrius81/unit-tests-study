@@ -1,6 +1,5 @@
 package seminars.first.Calculator;
 
-import java.util.Currency;
 
 public class Calculator {
     public static int calculation(int firstOperand, int secondOperand, char operator) {
@@ -36,10 +35,10 @@ public class Calculator {
         //  Отрицательные числа
         //  Дробные значения корней
         //  Целые
-            if(num < 0) {
-                throw new IllegalArgumentException("Cannot calculate square root of a negative number");
-            }
-            return Math.sqrt(num);
+        if (num < 0) {
+            throw new IllegalArgumentException("Cannot calculate square root of a negative number");
+        }
+        return Math.sqrt(num);
     }
 
     // Нужно написать в калькуляторе метод вычисления суммы покупки со скидкой и проверить его, используя AssertJ
@@ -52,8 +51,18 @@ public class Calculator {
 
     // В классе Calculator создайте метод calculateDiscount,
     // который принимает сумму покупки и процент скидки и возвращает сумму с учетом скидки.
-    public static float calculateDiscount(float price, float discount){
-        if (price < 0 || discount < 0 && discount > 1)
-            return 0;
+    public static double calculateDiscount(double price, double discount)
+    {
+        if (price < 0)
+        {
+            throw new ArithmeticException("Price can not be less than zero");
+        }
+
+        if (discount < 0 || discount > 1)
+        {
+            throw new ArithmeticException("Discount can not be less than zero and greater than one");
+        }
+
+        return price - price * discount;
     }
 }
