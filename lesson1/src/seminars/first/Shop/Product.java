@@ -20,4 +20,41 @@ public class Product {
     public void setTitle(String title) {
         this.title = title;
     }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (obj == null) {
+            return false;
+        }
+
+        if (this.getClass() == obj.getClass()){
+            return  this.title == ((Product) obj).title && this.cost == ((Product) obj).cost;
+        }
+        return false;
+    }
+
+    public boolean equals(Product p) {
+        if (p == null) {
+            return false;
+        }
+
+        return this.title == p.title && this.cost == p.cost;
+
+    }
+
+    public int compareCost(Product p) {
+        if (p == null) {
+            throw new NullPointerException("Argument is null");
+        }
+
+        if (this.cost < p.cost) {
+            return -1;
+        }
+
+        if (this.cost > p.cost) {
+            return 1;
+        }
+        return 0;
+    }
+
 }

@@ -1,11 +1,11 @@
 package seminars.first;
 
+import seminars.first.Shop.Product;
+import seminars.first.Shop.Shop;
+
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.Calendar;
-import java.util.List;
+import java.util.*;
 
 import static org.assertj.core.api.Assertions.*; // Импортируем классы библиотеки assertJ
 
@@ -42,6 +42,8 @@ public class Main {
         //  testingJavaCollectionsAssertJ(colors);
 
         //  checkingHero();
+
+
     }
 
     //                  Практические задания:
