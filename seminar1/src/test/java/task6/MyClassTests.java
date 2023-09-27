@@ -4,13 +4,12 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.stream.Collectors;
-import task6.MyClass.*;
+import static task6.MyClass.*;
 
 public class MyClassTests {
 
     @Test
-    void sumListsIsCorrectTest(){
+    void sumLists_TwoCorrectLists_IsCorrectResultTest(){
         //Arrange
         int size = 10;
         List<Integer> list1 = new ArrayList<Integer>(size);
@@ -25,7 +24,7 @@ public class MyClassTests {
 
         //Act
 
-        List<Integer> listResult = MyClass.sumLists(list1, list2);
+        List<Integer> listResult = sumLists(list1, list2);
 
         //Assert
 
@@ -33,7 +32,7 @@ public class MyClassTests {
     }
 
     @Test
-    void findMaxIsCorrectTest(){
+    void findMax_CorrectList_IsCorrectTest(){
         //Arrange
 
         int size = 10;
@@ -41,13 +40,12 @@ public class MyClassTests {
         int maxExpected = 23;
 
         for (int i = 0; i < size; i++){
-            int temp = i + 14;
-            list.add(temp);
+            list.add(i + 14);
         }
 
         //Act
 
-        int maxResult = MyClass.findMax(list);
+        int maxResult = findMax(list);
 
         //Assert
 
@@ -55,7 +53,7 @@ public class MyClassTests {
     }
 
     @Test
-    void filterStringsIsCorrectTest(){
+    void filterStrings_CorrectListOfStrings_IsCorrectTest(){
         //Arrange
 
         int size = 10;
@@ -76,7 +74,7 @@ public class MyClassTests {
 
         //Act
 
-        List<String> listResult = MyClass.filterStrings(list, length);
+        List<String> listResult = filterStrings(list, length);
 
         //Assert
 
