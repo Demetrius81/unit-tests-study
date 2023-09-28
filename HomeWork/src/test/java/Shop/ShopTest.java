@@ -2,6 +2,7 @@ package Shop;
 
 import org.example.Shop.Product;
 import org.example.Shop.Shop;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;
@@ -21,21 +22,22 @@ public class ShopTest {
     private static int _count;
     private static Product[] _products;
 
-    public ShopTest() {
-        this._shop = new Shop();
+    @BeforeAll
+    static void loadParameters() {
+        _shop = new Shop();
         Random rnd = new Random();
-        this._count = 100;
-        this._products = new Product[_count];
+        _count = 100;
+        _products = new Product[_count];
 
-        for (int i = 1; i <= this._count; i++) {
+        for (int i = 1; i <= _count; i++) {
             String title = "product" + i;
             Product p = new Product();
             p.setTitle(title);
             p.setCost(1 + rnd.nextInt(100));
-            this._products[i - 1] = p;
+            _products[i - 1] = p;
         }
 
-        this._shop.setProducts(Arrays.stream(this._products).toList());
+        _shop.setProducts(Arrays.stream(_products).toList());
 
     }
 
