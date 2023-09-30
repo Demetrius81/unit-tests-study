@@ -187,9 +187,10 @@ public class CartTests {
 
         _cart.addProductToCart(product1, 3);
 
-        int expectedQuantityInShop = 0; // 5 - 3
+        int expectedQuantityInShop = 0;
 
         int actualQuantityInShop = _shop.findProductById(product1.getId()).getQuantity();
+
         assertEquals(expectedQuantityInShop, actualQuantityInShop);
     }
 

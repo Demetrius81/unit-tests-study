@@ -1,6 +1,6 @@
 package org.example.shop;
 
-public class Product {
+public class Product implements Cloneable {
     private int id;
     private String name;
     private double price;
@@ -11,6 +11,11 @@ public class Product {
         this.name = name;
         this.price = price;
         this.quantity = quantity;
+    }
+
+    @Override
+    protected Product clone() {
+        return new Product(this.id, this.name, this.price,this.quantity);
     }
 
     // Геттеры и сеттеры

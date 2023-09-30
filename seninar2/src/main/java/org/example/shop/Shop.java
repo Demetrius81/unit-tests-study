@@ -21,7 +21,7 @@ public class Shop {
         if (currentProduct != null) {
             currentProduct.setQuantity(product.getQuantity() + currentProduct.getQuantity());
         } else {
-            _products.add(new Product(product.getId(), product.getName(), product.getPrice(), product.getQuantity()));
+            _products.add(product.clone());
         }
     }
 
