@@ -1,11 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="2751708a-06bb-4bb8-b753-023f57d19042" name="Changes" comment="" />
+    <list default="true" id="dedb44e1-bc69-480a-9c99-d1c58acdd9df" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -13,7 +26,7 @@
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2Vbi8w9kvMO6u2PyowE9HxBxRGU" />
+  <component name="ProjectId" id="2VySZikwRaFcrpPqV7gLMLgRLse" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,22 +38,22 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "last_opened_file_path": "D:/проекты/unit-tests-study/lesson1",
     "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0"
   }
 }]]></component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\проекты\unit-tests-study\lesson1\src" />
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\проекты\unit-tests-study\HomeWork\libs" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShopTest">
+  <component name="RunManager" selected="JUnit.ShopTest">
     <configuration name="CalculatorTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminars.first.Calculator.CalculatorTest" />
-      <module name="lesson1" />
+      <option name="MAIN_CLASS_NAME" value="Calculator.CalculatorTest" />
+      <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminars.first.Calculator.*" />
+          <option name="PATTERN" value="Calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -48,53 +61,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminars.first.Main" />
-      <module name="lesson1" />
+    <configuration name="CalculatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminars.first.*" />
+          <option name="PATTERN" value="Calculator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Calculator" />
+      <option name="MAIN_CLASS_NAME" value="Calculator.CalculatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="seminars.first.Shop.ShopTest" />
-      <module name="lesson1" />
+    <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="seminars.first.Shop.*" />
+          <option name="PATTERN" value="Shop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="Shop" />
+      <option name="MAIN_CLASS_NAME" value="Shop.ShopTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
-    </configuration>
-    <configuration name="assertj-core-3.24.2.jar" type="JarApplication" temporary="true">
-      <option name="JAR_PATH" value="$PROJECT_DIR$/src/assertj-core-3.24.2.jar" />
-      <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ShopTest" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ShopTest" />
+        <item itemvalue="JUnit.CalculatorTest" />
         <item itemvalue="Application.CalculatorTest" />
-        <item itemvalue="JAR Application.assertj-core-3.24.2.jar" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2751708a-06bb-4bb8-b753-023f57d19042" name="Changes" comment="" />
-      <created>1695111025405</created>
+      <changelist id="dedb44e1-bc69-480a-9c99-d1c58acdd9df" name="Changes" comment="" />
+      <created>1695806884845</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1695111025405</updated>
+      <updated>1695806884845</updated>
     </task>
     <servers />
   </component>
