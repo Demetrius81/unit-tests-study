@@ -18,16 +18,16 @@ public class Cart {
         _shop = shop;
     }
 
-    public void addProductToCart(Product product) {
+    public void addProductToCart(Product product) throws RuntimeException {
         addProduct(product, 1);
 
     }
 
-    public void addProductToCart(Product product, int count) {
+    public void addProductToCart(Product product, int count) throws RuntimeException {
         addProduct(product, count);
     }
 
-    private void addProduct(Product product, int count) {
+    private void addProduct(Product product, int count) throws RuntimeException {
         Product productInCart = _items.stream().filter(x -> x.getId() == product.getId()).findFirst().orElse(null);
         _shop.decreaseProductQuantity(product, count);
         if (productInCart == null) {
@@ -37,19 +37,19 @@ public class Cart {
         }
     }
 
-    public void removeProductFromCart(Product product) {
+    public void removeProductFromCart(Product product) throws RuntimeException {
         removeProduct(product, 1);
     }
 
-    public void removeProductFromCart(Product product, int count) {
+    public void removeProductFromCart(Product product, int count) throws RuntimeException {
         removeProduct(product, count);
     }
 
-    private void removeProduct(Product product, int count) {
+    private void removeProduct(Product product, int count) throws RuntimeException {
         Product productInCart = _items.stream().filter(x -> x.getId() == product.getId()).findFirst().orElse(null);
         _shop.increaseProductQuantity(product, count);
         if (productInCart == null) {
-            throw new NullPointerException("Указанного товара не найдено");
+            throw new RuntimeException("Указанного товара не найдено");
         }
 
         if (productInCart.getQuantity() == count) {
@@ -57,7 +57,7 @@ public class Cart {
         } else if (productInCart.getQuantity() > count) {
             productInCart.setQuantity(productInCart.getQuantity() - count);
         } else {
-            throw new IllegalArgumentException("Недостаточное количество товара в корзине");
+            throw new RuntimeException("Недостаточное количество товара в корзине");
         }
     }
 

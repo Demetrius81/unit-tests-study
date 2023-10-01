@@ -48,23 +48,23 @@ public class Shop {
                 .orElse(null);
     }
 
-    public void decreaseProductQuantity(Product product, int quantity) {
+    public void decreaseProductQuantity(Product product, int quantity) throws RuntimeException {
         Product shopProduct = findProductById(product.getId());
         if (shopProduct != null && shopProduct.getQuantity() >= quantity) {
             shopProduct.setQuantity(shopProduct.getQuantity() - quantity);
         } else if (shopProduct == null) {
-            throw new NullPointerException("Указанного товара не найдено");
+            throw new RuntimeException("Указанного товара не найдено");
         } else {
-            throw new IllegalArgumentException("Недостаточное количество товара в магазине");
+            throw new RuntimeException("Недостаточное количество товара в магазине");
         }
     }
 
-    public void increaseProductQuantity(Product product, int quantity) {
+    public void increaseProductQuantity(Product product, int quantity) throws RuntimeException {
         Product shopProduct = findProductById(product.getId());
         if (shopProduct != null) {
             shopProduct.setQuantity(shopProduct.getQuantity() + quantity);
         } else if (shopProduct == null) {
-            throw new NullPointerException("Указанного товара не найдено");
+            throw new RuntimeException("Указанного товара не найдено");
         }
     }
 }
