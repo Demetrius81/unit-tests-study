@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class CalculatorView {
     public void printMenu() {
-
+        System.out.print("Выберите операцию:\n1. Сложение\n2. Вычитание\n3. Умножение\n4. Деление\n5. Выход\n");
     }
 
     public void printResult(int result) {
