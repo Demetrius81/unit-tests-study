@@ -16,7 +16,7 @@ public class ComparisonOfAvengers implements IComparisonOfAvengers {
         }
 
         double sum = arrayOfInts.stream().mapToInt(item -> item).asDoubleStream().sum();
-        return sum / arrayOfInts.size();
+        return sum / (double) arrayOfInts.size();
     }
 
     @Override

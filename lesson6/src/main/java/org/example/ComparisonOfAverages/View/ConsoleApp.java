@@ -16,6 +16,8 @@ public class ConsoleApp {
     private static final String MESSAGE_IF_FIRST_MEDIUM_GREATER = "Первый список имеет большее среднее значение";
     private static final String MESSAGE_IF_SECOND_MEDIUM_GREATER = "Второй список имеет большее среднее значение";
     private static final String REQUEST_TO_CONTINUE = "Введите YES, если хотите продолжить";
+    private static final String ERROR_MESSAGE = "Произошла ошибка";
+
     private static final String LINE_TO_CONTINUE = "yes";
 
 
@@ -30,47 +32,49 @@ public class ConsoleApp {
 
         while (isTrue) {
 
+            try {
+                String line = readLine(FIRST_ROW_MESSAGE, System.in);
 
-            String line = readLine(FIRST_ROW_MESSAGE, System.in);
+                if (checkIsQuit(line, LINE_TO_QUIT)) {
+                    isTrue = false;
+                    continue;
+                }
 
-            if (checkIsQuit(line, LINE_TO_QUIT)) {
-                isTrue = false;
-                continue;
+                List<Integer> rowOne = Utilites.parseInputString(line);
+                line = readLine(SECOND_ROW_MESSAGE, System.in);
+
+                if (checkIsQuit(line, LINE_TO_QUIT)) {
+                    isTrue = false;
+                    continue;
+                }
+
+                List<Integer> rowTwo = Utilites.parseInputString(line);
+
+                double mediumOne = logic.calculateMediumValue(rowOne);
+                double mediumTwo = logic.calculateMediumValue(rowTwo);
+                int result = logic.comparisonValues(mediumOne, mediumTwo);
+
+                switch (result) {
+                    case 1:
+                        printMessage(MESSAGE_IF_FIRST_MEDIUM_GREATER);
+                        break;
+                    case -1:
+                        printMessage(MESSAGE_IF_SECOND_MEDIUM_GREATER);
+                        break;
+                    case 0:
+                        printMessage(MESSAGE_IF_ROWS_ARE_EQUALS);
+                        break;
+                    default:
+                        throw new RuntimeException("Something wrong");
+                }
+
+                line = readLine(REQUEST_TO_CONTINUE, System.in);
+
+                isTrue = checkIsQuit(line, LINE_TO_CONTINUE);
+
+            } catch (RuntimeException ex){
+                printMessage(ERROR_MESSAGE + " " + ex.getMessage());
             }
-
-            List<Integer> rowOne = Utilites.parseInputString(line);
-            line = readLine(SECOND_ROW_MESSAGE, System.in);
-
-            if (checkIsQuit(line, LINE_TO_QUIT)) {
-                isTrue = false;
-                continue;
-            }
-
-            List<Integer> rowTwo = Utilites.parseInputString(line);
-
-            double mediumOne = logic.calculateMediumValue(rowOne);
-            double mediumTwo = logic.calculateMediumValue(rowOne);
-            int result = logic.comparisonValues(mediumOne, mediumTwo);
-//test
-            System.out.println(result);
-
-            switch (result) {
-                case 1:
-                    printMessage(MESSAGE_IF_FIRST_MEDIUM_GREATER);
-                    break;
-                case -1:
-                    printMessage(MESSAGE_IF_SECOND_MEDIUM_GREATER);
-                    break;
-                case 0:
-                    printMessage(MESSAGE_IF_ROWS_ARE_EQUALS);
-                    break;
-                default:
-                    throw new RuntimeException("Something wrong");
-            }
-
-            line = readLine(REQUEST_TO_CONTINUE, System.in);
-
-            isTrue = !checkIsQuit(line, LINE_TO_CONTINUE);
         }
     }
 
@@ -84,7 +88,7 @@ public class ConsoleApp {
         if (line.length() != lineToQuit.length()){
             return false;
         }
-        if (line.substring(0, lineToQuit.length()-1).toLowerCase(Locale.getDefault()).equals(lineToQuit)) {
+        if (line.substring(0, lineToQuit.length()).toLowerCase(Locale.getDefault()).equals(lineToQuit)) {
             return true;
         }
 
