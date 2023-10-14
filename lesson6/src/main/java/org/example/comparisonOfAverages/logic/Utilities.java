@@ -1,9 +1,10 @@
-package org.example.ComparisonOfAverages.Logic;
+package org.example.comparisonOfAverages.logic;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
-public class Utilites {
+public class Utilities {
     public static List<Integer> parseInputString(String inputString){
         if (inputString == null){
             throw new RuntimeException("Argument is null");
@@ -13,12 +14,12 @@ public class Utilites {
             throw new RuntimeException("Array is empty");
         }
 
-        List<Integer> result = new ArrayList<Integer>();
+        List<Integer> result = new ArrayList<>();
         String[] tempArr = inputString.split("[^-\\d*]");
 
         for (String x :
                 tempArr) {
-            if (x != "") {
+            if (!Objects.equals(x, "")) {
                 if (x.length() > 9){
                     throw new RuntimeException("This is too big value to parse");
                 }

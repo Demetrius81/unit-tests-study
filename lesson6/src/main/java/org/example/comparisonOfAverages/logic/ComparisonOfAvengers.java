@@ -1,8 +1,7 @@
-package org.example.ComparisonOfAverages.Logic;
+package org.example.comparisonOfAverages.logic;
 
-import org.example.ComparisonOfAverages.Interfaces.IComparisonOfAvengers;
+import org.example.comparisonOfAverages.interfaces.IComparisonOfAvengers;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class ComparisonOfAvengers implements IComparisonOfAvengers {
@@ -21,12 +20,6 @@ public class ComparisonOfAvengers implements IComparisonOfAvengers {
 
     @Override
     public int comparisonValues(double firstValue, double secondValue) {
-        if (firstValue > secondValue){
-            return 1;
-        }
-        if (firstValue < secondValue) {
-            return -1;
-        }
-        return 0;
+        return Double.compare(firstValue, secondValue);
     }
 }

@@ -1,9 +1,8 @@
-package org.example.ComparisonOfAverages.View;
+package org.example.comparisonOfAverages.view;
 
-import org.example.ComparisonOfAverages.Interfaces.IComparisonOfAvengers;
-import org.example.ComparisonOfAverages.Logic.Utilites;
+import org.example.comparisonOfAverages.interfaces.IComparisonOfAvengers;
+import org.example.comparisonOfAverages.logic.Utilities;
 
-import java.io.InputStream;
 import java.util.List;
 import java.util.Locale;
 import java.util.Scanner;
@@ -28,50 +27,40 @@ public class ConsoleApp {
     }
 
     public void runApp() {
-        Boolean isTrue = true;
+        boolean isTrue = true;
 
         while (isTrue) {
 
             try {
-                String line = readLine(FIRST_ROW_MESSAGE, System.in);
+                String line = readLine(FIRST_ROW_MESSAGE);
 
                 if (checkIsQuit(line, LINE_TO_QUIT)) {
                     isTrue = false;
                     continue;
                 }
 
-                List<Integer> rowOne = Utilites.parseInputString(line);
-                line = readLine(SECOND_ROW_MESSAGE, System.in);
+                List<Integer> rowOne = Utilities.parseInputString(line);
+                line = readLine(SECOND_ROW_MESSAGE);
 
                 if (checkIsQuit(line, LINE_TO_QUIT)) {
                     isTrue = false;
                     continue;
                 }
 
-                List<Integer> rowTwo = Utilites.parseInputString(line);
-
+                List<Integer> rowTwo = Utilities.parseInputString(line);
                 double mediumOne = logic.calculateMediumValue(rowOne);
                 double mediumTwo = logic.calculateMediumValue(rowTwo);
                 int result = logic.comparisonValues(mediumOne, mediumTwo);
 
                 switch (result) {
-                    case 1:
-                        printMessage(MESSAGE_IF_FIRST_MEDIUM_GREATER);
-                        break;
-                    case -1:
-                        printMessage(MESSAGE_IF_SECOND_MEDIUM_GREATER);
-                        break;
-                    case 0:
-                        printMessage(MESSAGE_IF_ROWS_ARE_EQUALS);
-                        break;
-                    default:
-                        throw new RuntimeException("Something wrong");
+                    case 1 -> printMessage(MESSAGE_IF_FIRST_MEDIUM_GREATER);
+                    case -1 -> printMessage(MESSAGE_IF_SECOND_MEDIUM_GREATER);
+                    case 0 -> printMessage(MESSAGE_IF_ROWS_ARE_EQUALS);
+                    default -> throw new RuntimeException("Something wrong");
                 }
 
-                line = readLine(REQUEST_TO_CONTINUE, System.in);
-
+                line = readLine(REQUEST_TO_CONTINUE);
                 isTrue = checkIsQuit(line, LINE_TO_CONTINUE);
-
             } catch (RuntimeException ex){
                 printMessage(ERROR_MESSAGE + " " + ex.getMessage());
             }
@@ -88,15 +77,11 @@ public class ConsoleApp {
         if (line.length() != lineToQuit.length()){
             return false;
         }
-        if (line.substring(0, lineToQuit.length()).toLowerCase(Locale.getDefault()).equals(lineToQuit)) {
-            return true;
-        }
-
-        return false;
+        return line.substring(0, lineToQuit.length()).toLowerCase(Locale.getDefault()).equals(lineToQuit);
     }
 
-    private String readLine(String message, InputStream source) {
-        Scanner scanner = new Scanner(source);
+    private String readLine(String message) {
+        Scanner scanner = new Scanner(System.in);
         printMessage(message);
         System.out.print(">");
         return scanner.nextLine();
