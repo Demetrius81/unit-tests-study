@@ -1,0 +1,757 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>18</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Другие'</description>
+  <highlighted_element>Другие</highlighted_element>
+  <language>XML</language>
+  <offset>13</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>18</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'зависимости'</description>
+  <highlighted_element>зависимости</highlighted_element>
+  <language>XML</language>
+  <offset>20</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>19</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'предоставляет'</description>
+  <highlighted_element>предоставляет</highlighted_element>
+  <language>XML</language>
+  <offset>21</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>19</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'множество'</description>
+  <highlighted_element>множество</highlighted_element>
+  <language>XML</language>
+  <offset>35</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>19</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'методов'</description>
+  <highlighted_element>методов</highlighted_element>
+  <language>XML</language>
+  <offset>45</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>20</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'более'</description>
+  <highlighted_element>более</highlighted_element>
+  <language>XML</language>
+  <offset>8</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>20</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'сложных'</description>
+  <highlighted_element>сложных</highlighted_element>
+  <language>XML</language>
+  <offset>14</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>20</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'проверок'</description>
+  <highlighted_element>проверок</highlighted_element>
+  <language>XML</language>
+  <offset>22</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>24</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Укажите'</description>
+  <highlighted_element>Укажите</highlighted_element>
+  <language>XML</language>
+  <offset>43</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>24</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'актуальную'</description>
+  <highlighted_element>актуальную</highlighted_element>
+  <language>XML</language>
+  <offset>51</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>24</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'версию'</description>
+  <highlighted_element>версию</highlighted_element>
+  <language>XML</language>
+  <offset>62</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>28</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'использования'</description>
+  <highlighted_element>использования</highlighted_element>
+  <language>XML</language>
+  <offset>21</offset>
+  <length>13</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>29</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ваших'</description>
+  <highlighted_element>ваших</highlighted_element>
+  <language>XML</language>
+  <offset>2</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>29</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'тестах'</description>
+  <highlighted_element>тестах</highlighted_element>
+  <language>XML</language>
+  <offset>8</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>29</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'необходимо'</description>
+  <highlighted_element>необходимо</highlighted_element>
+  <language>XML</language>
+  <offset>22</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>29</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'добавить'</description>
+  <highlighted_element>добавить</highlighted_element>
+  <language>XML</language>
+  <offset>33</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>29</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'соответствующую'</description>
+  <highlighted_element>соответствующую</highlighted_element>
+  <language>XML</language>
+  <offset>42</offset>
+  <length>15</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>30</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'зависимость'</description>
+  <highlighted_element>зависимость</highlighted_element>
+  <language>XML</language>
+  <offset>0</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>30</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'файл'</description>
+  <highlighted_element>файл</highlighted_element>
+  <language>XML</language>
+  <offset>14</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>30</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'фреймворк'</description>
+  <highlighted_element>фреймворк</highlighted_element>
+  <language>XML</language>
+  <offset>48</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>31</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'написания'</description>
+  <highlighted_element>написания</highlighted_element>
+  <language>XML</language>
+  <offset>4</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>31</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'тестов'</description>
+  <highlighted_element>тестов</highlighted_element>
+  <language>XML</language>
+  <offset>14</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>74</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Замените'</description>
+  <highlighted_element>Замените</highlighted_element>
+  <language>XML</language>
+  <offset>42</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>74</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'версию'</description>
+  <highlighted_element>версию</highlighted_element>
+  <language>XML</language>
+  <offset>51</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/pom.xml</file>
+  <line>74</line>
+  <module>lesson6</module>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/pom.xml" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'актуальную'</description>
+  <highlighted_element>актуальную</highlighted_element>
+  <language>XML</language>
+  <offset>61</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>12</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp FIRST_ROW_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Введите'</description>
+  <highlighted_element>Введите</highlighted_element>
+  <language>JAVA</language>
+  <offset>53</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>12</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp FIRST_ROW_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'первый'</description>
+  <highlighted_element>первый</highlighted_element>
+  <language>JAVA</language>
+  <offset>61</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>12</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp FIRST_ROW_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'чисел'</description>
+  <highlighted_element>чисел</highlighted_element>
+  <language>JAVA</language>
+  <offset>72</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>12</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp FIRST_ROW_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'знаков'</description>
+  <highlighted_element>знаков</highlighted_element>
+  <language>JAVA</language>
+  <offset>83</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>12</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp FIRST_ROW_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'разделенных'</description>
+  <highlighted_element>разделенных</highlighted_element>
+  <language>JAVA</language>
+  <offset>91</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>12</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp FIRST_ROW_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'пробелом'</description>
+  <highlighted_element>пробелом</highlighted_element>
+  <language>JAVA</language>
+  <offset>103</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>12</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp FIRST_ROW_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'выхода'</description>
+  <highlighted_element>выхода</highlighted_element>
+  <language>JAVA</language>
+  <offset>122</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>13</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp SECOND_ROW_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Введите'</description>
+  <highlighted_element>Введите</highlighted_element>
+  <language>JAVA</language>
+  <offset>54</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>13</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp SECOND_ROW_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'второй'</description>
+  <highlighted_element>второй</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>13</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp SECOND_ROW_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'чисел'</description>
+  <highlighted_element>чисел</highlighted_element>
+  <language>JAVA</language>
+  <offset>73</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>13</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp SECOND_ROW_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'знаков'</description>
+  <highlighted_element>знаков</highlighted_element>
+  <language>JAVA</language>
+  <offset>84</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>13</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp SECOND_ROW_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'разделенных'</description>
+  <highlighted_element>разделенных</highlighted_element>
+  <language>JAVA</language>
+  <offset>92</offset>
+  <length>11</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>13</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp SECOND_ROW_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'пробелом'</description>
+  <highlighted_element>пробелом</highlighted_element>
+  <language>JAVA</language>
+  <offset>104</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>13</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp SECOND_ROW_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'выхода'</description>
+  <highlighted_element>выхода</highlighted_element>
+  <language>JAVA</language>
+  <offset>123</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>14</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp MESSAGE_IF_ROWS_ARE_EQUALS" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Средние'</description>
+  <highlighted_element>Средние</highlighted_element>
+  <language>JAVA</language>
+  <offset>62</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>14</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp MESSAGE_IF_ROWS_ARE_EQUALS" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'значения'</description>
+  <highlighted_element>значения</highlighted_element>
+  <language>JAVA</language>
+  <offset>70</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>14</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp MESSAGE_IF_ROWS_ARE_EQUALS" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'равны'</description>
+  <highlighted_element>равны</highlighted_element>
+  <language>JAVA</language>
+  <offset>79</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>15</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp MESSAGE_IF_FIRST_MEDIUM_GREATER" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Первый'</description>
+  <highlighted_element>Первый</highlighted_element>
+  <language>JAVA</language>
+  <offset>67</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>15</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp MESSAGE_IF_FIRST_MEDIUM_GREATER" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'список'</description>
+  <highlighted_element>список</highlighted_element>
+  <language>JAVA</language>
+  <offset>74</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>15</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp MESSAGE_IF_FIRST_MEDIUM_GREATER" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'имеет'</description>
+  <highlighted_element>имеет</highlighted_element>
+  <language>JAVA</language>
+  <offset>81</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>15</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp MESSAGE_IF_FIRST_MEDIUM_GREATER" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'большее'</description>
+  <highlighted_element>большее</highlighted_element>
+  <language>JAVA</language>
+  <offset>87</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>15</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp MESSAGE_IF_FIRST_MEDIUM_GREATER" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'среднее'</description>
+  <highlighted_element>среднее</highlighted_element>
+  <language>JAVA</language>
+  <offset>95</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>15</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp MESSAGE_IF_FIRST_MEDIUM_GREATER" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'значение'</description>
+  <highlighted_element>значение</highlighted_element>
+  <language>JAVA</language>
+  <offset>103</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>16</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp MESSAGE_IF_SECOND_MEDIUM_GREATER" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Второй'</description>
+  <highlighted_element>Второй</highlighted_element>
+  <language>JAVA</language>
+  <offset>68</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>16</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp MESSAGE_IF_SECOND_MEDIUM_GREATER" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'список'</description>
+  <highlighted_element>список</highlighted_element>
+  <language>JAVA</language>
+  <offset>75</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>16</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp MESSAGE_IF_SECOND_MEDIUM_GREATER" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'имеет'</description>
+  <highlighted_element>имеет</highlighted_element>
+  <language>JAVA</language>
+  <offset>82</offset>
+  <length>5</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>16</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp MESSAGE_IF_SECOND_MEDIUM_GREATER" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'большее'</description>
+  <highlighted_element>большее</highlighted_element>
+  <language>JAVA</language>
+  <offset>88</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>16</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp MESSAGE_IF_SECOND_MEDIUM_GREATER" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'среднее'</description>
+  <highlighted_element>среднее</highlighted_element>
+  <language>JAVA</language>
+  <offset>96</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>16</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp MESSAGE_IF_SECOND_MEDIUM_GREATER" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'значение'</description>
+  <highlighted_element>значение</highlighted_element>
+  <language>JAVA</language>
+  <offset>104</offset>
+  <length>8</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>17</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp REQUEST_TO_CONTINUE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Введите'</description>
+  <highlighted_element>Введите</highlighted_element>
+  <language>JAVA</language>
+  <offset>55</offset>
+  <length>7</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>17</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp REQUEST_TO_CONTINUE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'если'</description>
+  <highlighted_element>если</highlighted_element>
+  <language>JAVA</language>
+  <offset>68</offset>
+  <length>4</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>17</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp REQUEST_TO_CONTINUE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'хотите'</description>
+  <highlighted_element>хотите</highlighted_element>
+  <language>JAVA</language>
+  <offset>73</offset>
+  <length>6</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>17</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp REQUEST_TO_CONTINUE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'продолжить'</description>
+  <highlighted_element>продолжить</highlighted_element>
+  <language>JAVA</language>
+  <offset>80</offset>
+  <length>10</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>18</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp ERROR_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'Произошла'</description>
+  <highlighted_element>Произошла</highlighted_element>
+  <language>JAVA</language>
+  <offset>49</offset>
+  <length>9</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/comparisonOfAverages/view/ConsoleApp.java</file>
+  <line>18</line>
+  <module>lesson6</module>
+  <package>org.example.comparisonOfAverages.view</package>
+  <entry_point TYPE="field" FQNAME="org.example.comparisonOfAverages.view.ConsoleApp ERROR_MESSAGE" />
+  <problem_class id="SpellCheckingInspection" severity="TYPO" attribute_key="TYPO">Typo</problem_class>
+  <description>Typo: In word 'ошибка'</description>
+  <highlighted_element>ошибка</highlighted_element>
+  <language>JAVA</language>
+  <offset>59</offset>
+  <length>6</length>
+</problem>
+</problems>

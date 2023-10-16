@@ -1,0 +1,30 @@
+<problems>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</file>
+  <line>4</line>
+  <module>lesson6</module>
+  <package>org.example</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+  <problem_class id="UNUSED_IMPORT" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+  <hints />
+  <description>Unused import &lt;code&gt;import java.io.File;&lt;/code&gt; #loc</description>
+  <highlighted_element>import java.io.File;</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>20</length>
+</problem>
+<problem>
+  <file>file://$PROJECT_DIR$/src/main/java/org/example/Main.java</file>
+  <line>5</line>
+  <module>lesson6</module>
+  <package>org.example</package>
+  <entry_point TYPE="file" FQNAME="file://$PROJECT_DIR$/src/main/java/org/example/Main.java" />
+  <problem_class id="UNUSED_IMPORT" severity="WARNING" attribute_key="WARNING_ATTRIBUTES">Unused import</problem_class>
+  <hints />
+  <description>Unused import &lt;code&gt;import java.security.Permission;&lt;/code&gt; #loc</description>
+  <highlighted_element>import java.security.Permission;</highlighted_element>
+  <language>JAVA</language>
+  <offset>0</offset>
+  <length>32</length>
+</problem>
+</problems>
